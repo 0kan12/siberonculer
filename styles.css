@@ -64,6 +64,9 @@ nav ul li a {
     margin-top: 60px; /* Üstten eklenen boşluk */
 }
 
+html {
+    scroll-behavior: smooth; /* Sayfa kaydırma animasyonu */
+}
 
 .segment1-content {
     max-width: 600px;
