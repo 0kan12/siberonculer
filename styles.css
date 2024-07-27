@@ -12,7 +12,14 @@ body {
 /* Header */
 header {
     background-color: #072540;
-    padding: 1em 2em; 
+    padding: 1em 2em;
+    position: fixed; /* Sabitlenmiş navbar */
+    top: 0;
+    left: 0;
+    width: 100%; /* Tam genişlik */
+    z-index: 1000; /* Diğer içeriklerin üstünde kalmasını sağlar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Hafif gölge efekti */
+    transition: background-color 0.3s; /* Arka plan rengi geçişi */
 }
 
 nav {
@@ -54,7 +61,9 @@ nav ul li a {
     justify-content: center;
     padding: 2em 1em;
     background-color: #123765;
+    margin-top: 60px; /* Üstten eklenen boşluk */
 }
+
 
 .segment1-content {
     max-width: 600px;
