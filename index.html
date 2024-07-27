@@ -58,12 +58,11 @@
         </section>
 
         <section class="segment3">
-
             <div class="giris">
                 <div class="giris-box">
                     <h1>FAQ</h1>
-                    <p>Sık sorulan sorular</p>
-                    <img src="pictures/illustration2.png" class="illustration2">
+                    <p>Sıkça Sorulan Sorular</p>
+                    <img src="pictures/illustration2.png" class="illustration2" alt="Illustration 2">
                 </div>
                 <div class="giris-box">
                     <div class="faq-wrapper">
@@ -74,7 +73,7 @@
                                     <span class="faq-plus">&plus;</span>
                                 </h3>
                                 <div class="faq-body">
-                                    Canımız istedi.
+                                    Bu projeyi, Türk gençlerine yazılım öğretmenin ve sanal ortamda güvenliği sağlamanın önemini vurgulamak için başlattık. Hedefimiz, gençlere modern eğitim yöntemleri sunarak onları bu alanda başarılı kılmak.
                                 </div>
                             </div>
                             <hr>
@@ -84,7 +83,7 @@
                                     <span class="faq-plus">&plus;</span>
                                 </h3>
                                 <div class="faq-body">
-                                    Sigmayız biz kardeş
+                                    Proje süreci bazı zorluklar içerdi. Ancak, ekip olarak bu zorlukların üstesinden gelmeyi başardık. Yazılım geliştirme süreci, çeşitli teknik ve organizasyonel zorlukları içeriyor, ama her adımda öğrendik ve büyüdük.
                                 </div>
                             </div>
                             <hr>
@@ -94,7 +93,7 @@
                                     <span class="faq-plus">&plus;</span>
                                 </h3>
                                 <div class="faq-body">
-                                    Çok para kazanmak
+                                    Projemizin ana hedefi ticari kazanç değil, eğitim ve güvenlik alanında katkıda bulunmaktır. Ancak, sürdürülebilirlik ve projenin devamlılığı için ticari fırsatları değerlendirmeyi planlıyoruz.
                                 </div>
                             </div>
                             <hr>
@@ -104,26 +103,24 @@
                                     <span class="faq-plus">&plus;</span>
                                 </h3>
                                 <div class="faq-body">
-                                    Babapro olun.
+                                    Gençlere tavsiyemiz, sürekli öğrenmeye açık olmaları ve hedeflerine odaklanmalarıdır. Teknolojinin hızla değiştiği bu çağda, öğrenmeye devam etmek ve yeni fırsatları değerlendirmek önemlidir.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
                 <script type="text/javascript">
-                $(".faq-plus").on('click', function() {
-                  var currentFaq = $(this).parent().parent();
-                  $(".faq-body").not(currentFaq.find('.faq-body')).slideUp();
-                  $(".faq-plus").not(this).removeClass('rotated'); 
-                  currentFaq.find('.faq-body').stop(true, true).slideToggle();
-                  $(this).toggleClass('rotated');
-                });
+                    $(".faq-plus").on('click', function() {
+                        var currentFaq = $(this).parent().parent();
+                        $(".faq-body").not(currentFaq.find('.faq-body')).slideUp();
+                        $(".faq-plus").not(this).removeClass('rotated'); 
+                        currentFaq.find('.faq-body').stop(true, true).slideToggle();
+                        $(this).toggleClass('rotated');
+                    });
                 </script>
-                
             </div>
-
         </section>
+        
 
         <section class="sonmetin">
             <div class="line"></div>
