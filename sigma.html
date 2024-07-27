@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siber Öncüler</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://siberonculer.com" target="_blank">
+                <img src="pictures/Logo.png" alt="Logo" class="logo">
+            </a>
+            <ul>
+                <li><a href="#">Projelerimiz</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="segment1">
+            <div class="segment1-content">
+                <h1>AMACIMIZ</h1>
+                <p>İki kişilik bir ekibiz; biri backend, diğeri frontend işleriyle ilgileniyor. Amacımız, Türk gençlerine yazılımı kolayca öğretmeyi ve sanal ortamda güvenliğini sağlamayı hedefleyen "brilliantcamp" platformumuzu geliştirmek. Teknofest 2025'te eğitim teknolojileri alanında ödül kazanarak bu alanda daha iyi bir konuma gelmeyi amaçlıyoruz.</p>
+                <button>Sigma</button>
+            </div>
+            <div class="segment1-image">
+                <img src="pictures/illustration1.png" alt="illustration1">
+            </div>
+        </section>
+
+        <section class="segment2">
+            <h2>PROJELERİMİZ</h2>
+            <p>Burdan projelerimizi inceleyip kullanabilirsiniz.</p>
+            <div class="kutular">
+                <div class="kutu">
+                    <div class="kutu-image"><img src="pictures/sadelogo.png"></div>
+                    <h3>Proje1</h3>
+                    <p>Babapro metin Babapro metin Babapro metin</p>
+                    <button>Buton</button>
+                </div>
+                <div class="kutu">
+                    <div class="kutu-image"><img src="pictures/sadelogo.png"></div>
+                    <h3>Proje2</h3>
+                    <p>Babapro metin Babapro metin Babapro metin</p>
+                    <button>Buton</button>
+                </div>
+                <div class="kutu">
+                    <div class="kutu-image"><img src="pictures/sadelogo.png"></div>
+                    <h3>Proje3</h3>
+                    <p>Babapro metin Babapro metin Babapro metin</p>
+                    <button>Buton</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="segment3">
+
+            <div class="giris">
+                <div class="giris-box">
+                    <h1>FAQ</h1>
+                    <p>Sık sorulan sorular</p>
+                    <img src="pictures/illustration2.png" class="illustration2">
+                </div>
+                <div class="giris-box">
+                    <div class="faq-wrapper">
+                        <div class="faq-inner">
+                            <div class="faq-item">
+                                <h3>
+                                    Neden böyle bir proje yaptınız?
+                                    <span class="faq-plus">&plus;</span>
+                                </h3>
+                                <div class="faq-body">
+                                    Canımız istedi.
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="faq-item">
+                                <h3>
+                                    Ne kadar zorlandınız?
+                                    <span class="faq-plus">&plus;</span>
+                                </h3>
+                                <div class="faq-body">
+                                    Sigmayız biz kardeş
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="faq-item">
+                                <h3>
+                                    Ticari bir amacınız var mı?
+                                    <span class="faq-plus">&plus;</span>
+                                </h3>
+                                <div class="faq-body">
+                                    Çok para kazanmak
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="faq-item">
+                                <h3>
+                                    Gençlere tavsiyeleriniz var mı?
+                                    <span class="faq-plus">&plus;</span>
+                                </h3>
+                                <div class="faq-body">
+                                    Babapro olun.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <script type="text/javascript">
+                $(".faq-plus").on('click', function() {
+                  var currentFaq = $(this).parent().parent();
+                  $(".faq-body").not(currentFaq.find('.faq-body')).slideUp();
+                  $(".faq-plus").not(this).removeClass('rotated'); 
+                  currentFaq.find('.faq-body').stop(true, true).slideToggle();
+                  $(this).toggleClass('rotated');
+                });
+                </script>
+                
+            </div>
+
+        </section>
+
+        <section class="sonmetin">
+            <div class="line"></div>
+            <h1><span class="highlight">Yenilikler</span> için takipte kalın.</h1>
+            <div class="line"></div>
+        </section>
+
+        <section class="footer">
+
+            <div class="line"></div>
+            
+        </section>
+        
+      <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+            <img src="pictures/sadelogo.png">
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Projelerimiz</h4>
+  	 			<ul>
+  	 				<li><a href="#">Rodev</a></li>
+  	 				<li><a href="#">URL Kısaltıcı</a></li>
+  	 				<li><a href="#">Brilliantcat</a></li>
+  	 				<li><a href="#">Kahoot</a></li>
+  	 				<li><a href="#">Resim Yollama</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Sosyal Medya</h4>
+  	 			<ul>
+  	 				<li><a href="#">@siberonculer</a></li>
+  	 				<li><a href="#">@siberonculer</a></li>
+  	 				<li><a href="#">@siberonculer</a></li>
+  	 				<li><a href="#">@siberonculer</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#"><font color=#A9FFB2>okan@siberonculer.com</font></a></li>
+  	 				<li><a href="#"><font color=#38ADD9>gok@siberonculer.com</font></a></li>
+  	 			</ul>
+  	 		</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+      
+      
+    </main>
+</body>
+</html>
